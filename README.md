@@ -13,7 +13,7 @@ xArm Python SDK
 - download
 
   ```bash
-  git clone https://github.com/xArm-Developer/xArm-Python-SDK.git
+  git clone https://github.com/ffelipev2/BrazoRoboticoUfactory.git
   ```
 
 - install
