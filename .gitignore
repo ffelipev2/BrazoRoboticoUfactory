@@ -1,5 +1,6 @@
 files__pycache__/
 .idea
+.venv/
 *.py[cod]
 *$py.class
 build/
