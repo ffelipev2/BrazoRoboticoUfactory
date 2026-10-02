@@ -12,6 +12,10 @@ La aplicación se compone de tres elementos principales:
 - Un control del brazo robótico mediante el SDK local `xarm`.
 - Una interfaz web ligera en Flask para visualizar la cámara, el estado del robot y los contadores.
 
+## Propósito educativo
+
+Preparé esta demostración para mostrar a los estudiantes cómo funciona un brazo robótico y cómo la visión artificial permite automatizar tareas de clasificación sin que una persona deba identificar visualmente cada objeto durante la operación. La lectura de etiquetas QR conecta la identificación de una categoría con una secuencia de recogida, transporte y depósito en posiciones predefinidas.
+
 ## Objetivo
 
 Automatizar la recepción, identificación y clasificación de elementos usando:
@@ -119,6 +123,26 @@ En la vista principal se observa:
 5. El robot ubica la pieza en la posición de destino correspondiente.
 6. El sistema registra la clasificación en la interfaz web.
 7. El proceso vuelve a quedar listo para una nueva detección.
+
+## Fotografías de la demostración
+
+### Detección y supervisión
+
+<img src="docs/images/estacion-deteccion-qr.jpg" alt="Estación con el brazo UFACTORY LITE 6, cámara y panel web mostrando un código QR detectado" width="900">
+
+Vista de la estación: el panel muestra el código QR detectado, el estado del proceso y los contadores por categoría.
+
+### Recogida de la pieza
+
+<img src="docs/images/brazo-recogiendo-pieza.jpg" alt="Pinza del brazo UFACTORY LITE 6 sobre una pieza azul junto a los recipientes de clasificación y el panel web" width="900">
+
+El brazo se acerca a la pieza en la posición de recogida; los recipientes de destino y la supervisión web se ven en la misma escena.
+
+### Identificación por QR
+
+<img src="docs/images/pieza-etiquetada-qr.jpg" alt="Primer plano de una pieza morada con etiqueta QR sostenida en una mano frente al brazo robótico" width="480">
+
+Detalle de una pieza etiquetada: el contenido del código QR identifica la categoría que determina su destino.
 
 ## Comportamiento del robot
 
